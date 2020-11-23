@@ -5,6 +5,7 @@
 // ====================================================
 // GraphQL mutation operation: login
 // ====================================================
+import { isLoggedInVar } from './../../cache';
 
 export interface login_login {
   __typename: "User";
